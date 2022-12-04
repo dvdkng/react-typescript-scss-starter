@@ -29,6 +29,19 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run lint:css`
+
+Linting SCSS files with `stylint-scss`
+
+### `npm run prettier:ts`
+
+Linting typescript files with `prettier`
+
+### `npm run format`
+
+Executes both run targets `npm run prettier:ts` and `npm run lint:css`
+Linting typescript files with `prettier` and SCSS files with `stylint-scss`
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
